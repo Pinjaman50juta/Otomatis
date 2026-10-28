@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toko Bangunan Pedamaran</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,Arial,sans-serif;background:#f0f2f5}
+.header{max-width:500px;margin:auto;background:#fff;min-height:100vh;position:relative}
+.cover{
+  display:grid;grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows:140px 140px;
+  gap:2px;background:#ddd
+}
+.cover div{background-size:cover;background-position:center}
+.avatar-wrap{
+  position:relative;height:80px;
+}
+.avatar{
+  width:150px;height:150px;border-radius:50%;
+  border:5px solid #fff;
+  background-size:cover;background-position:center;
+  position:absolute;left:50%;transform:translateX(-50%);
+  top:-75px;background-color:#ccc;
+}
+.bubble{
+  position:absolute;top:-110px;left:50%;transform:translateX(-10px);
+  background:#fff;padding:8px 12px;border-radius:20px;
+  box-shadow:0 2px 8px rgba(0,0,0,.15);font-size:13px
+}
+.content{padding:90px 16px 20px}
+.name{font-size:20px;font-weight:800}
+.time{color:#65676b;font-size:13px;margin:4px 0 12px}
+.desc{font-size:15px;line-height:1.4;margin-bottom:16px}
+.banner{width:100%;border-radius:10px;overflow:hidden;margin:12px 0}
+.banner img{width:100%;display:block}
+.btn-wa{
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  width:100%;height:46px;background:#4CAF50;color:#fff;
+  border:0;border-radius:10px;font-weight:700;text-decoration:none
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="cover">
+    <div style="background-image:url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400')"></div>
+    <div style="background-image:url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400')"></div>
+    <div style="background-image:url('https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=400')"></div>
+    <div style="background-image:url('https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=400')"></div>
+    <div style="background-image:url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=400')"></div>
+    <div style="background-image:url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400')"></div>
+  </div>
+  
+  <div class="avatar-wrap">
+    <div class="bubble">Bagikan foto toko...</div>
+    <div class="avatar" style="background-image:url('https://images.unsplash.com/photo-1590674899484-d5640e854abe?w=400')"></div>
+  </div>
+
+  <div class="content">
+    <div class="name">Toko Bangunan Pedamaran Jaya</div>
+    <div class="time">Buka · 08.00 - 18.00 WIB</div>
+    <div class="desc">
+      Menyediakan semen, besi hollow, cat Nippon Paint, pipa, dan bahan bangunan lainnya.
+      Pengiriman area Pedamaran, Pedamaran Timur, OKI.
+      Hubungi kami untuk daftar harga.
+    </div>
+
+    <div class="banner">
+      <img src="https://via.placeholder.com/600x300/4CAF50/ffffff?text=FOTO+TOKO+ANDA" alt="banner">
+    </div>
+
+    <a class="btn-wa" href="https://wa.me/6281234567890" target="_blank">
+      Kirim Pesan WhatsApp
+    </a>
+    
+    <p style="text-align:center;color:#888;font-size:12px;margin-top:12px">Alamat: Desa Pedamaran, OKI, Sumsel</p>
+  </div>
+</div>
+</body>
+</html>

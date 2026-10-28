@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kredit Cepat Cair</title>
+  <style>
+    body{font-family:Arial;text-align:center;padding:50px}
+    .btn{background:#0084FF;color:white;padding:15px 25px;border-radius:10px;text-decoration:none;display:inline-block;margin-top:20px}
+  </style>
+</head>
+<body>
+  <h2>Terima kasih!</h2>
+  <p>Kamu akan dialihkan ke Messenger dalam <span id="count">3</span> detik...</p>
+  <a class="btn" href="https://m.me/bantuantunai30juta">Chat Sekarang</a>
+
+  <script>
+    let c = 3;
+    let timer = setInterval(()=>{
+      c--;
+      document.getElementById('count').innerText = c;
+      if(c <= 0){
+        clearInterval(timer);
+        window.location.href = "https://m.me/bantuantunai30juta";
+      }
+    }, 1000);
+  </script>
+</body>
+</html>
